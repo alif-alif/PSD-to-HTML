@@ -1,0 +1,123 @@
+@media only screen and (max-width:1024px)
+    {
+        .mobile-menu .line {
+            display: block;
+            float: right;
+    
+        }
+
+    
+
+    
+    .row {
+        margin: 0 15px;
+    }
+    .main-nav {
+        display: none;
+    }
+
+    html {
+        font-size: 50.5%;
+    }
+
+    .skill-section .box {
+
+        padding-left: 0;
+
+    }
+    .skill-section h3 {
+        font-size: 1.5rem;
+        margin-left: 0rem;
+    }
+
+    .client-photo {
+        width: 50%;
+        float: none;
+        text-align: center;
+        margin-left: 15rem;
+    }
+    
+    .client-review {
+        width: 50%;
+        float: right;
+        text-align: center;
+    }
+
+
+    .services-section .col {
+        margin-left: 10rem;
+        
+    }
+
+    .services-section .Development {
+        margin: 2rem;
+    }
+
+
+    .services-section .Rocket {
+        margin: 2rem;
+    }
+
+    .team-section .Development {
+        margin-left: 10rem;
+        text-align: center;
+
+    }
+
+    .team-section h3,
+    .team-section p,
+    .team-section .role {
+    
+
+        text-align: center;
+        margin-left: 10rem;
+
+    }
+
+    .team-section .social-link  {
+        text-align: center;
+        margin-left: 10rem;
+        margin-top: 3rem;
+    }
+
+    .skill-section .alif4 {
+
+        margin-left: 8rem;
+
+    }
+
+    .skill-section p {
+        width: 80%;
+        text-align: center;
+        margin-left: 7rem;
+    } 
+
+    .contact-section .alif8 input[type="email"] {
+        
+        margin-left: -1rem;
+        width: 39.5rem;
+    
+    }
+
+    .footer-section {
+        padding-left: 100rem 0;
+    }
+
+    .footer-section ul .alif9{ 
+        font-size: .1rem;
+        margin-left: 0rem;
+    }
+
+    .logo {
+        margin-left: 1rem;
+    }
+
+    header h1 {
+        margin-left: 1rem ;
+        font-size: 3rem;
+    }
+
+    
+
+    
+}

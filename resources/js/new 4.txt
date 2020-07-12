@@ -1,0 +1,35 @@
+if (isset($_REQUEST["fname"]) && isset($_REQUEST["lname"]) && isset ($_REQUEST["email"]) && isset($_REQUEST["message"])){
+
+$fname = $_REQUEST["fname"];
+$lname = $_REQUEST["lname"];
+$email = $_REQUEST["email"];
+$message = $_REQUEST["message"];
+
+echo $fname;
+echo $lname;
+echo $email;
+echo $email;
+
+$insertQuery = "INSERT INTO my_users (fname,lname,email,message) VALUES ('$fname','$lname','email','message')";
+
+}
+
+
+
+
+
+    <form action="savedate_core.php" method="POST">
+    
+
+    <input type="text name="fname" placeholder="fname">
+    <input type="text name="lname" placeholder="lname">
+    <input type="email name="email" placeholder="email">
+   
+   <!--
+    <textarea name="message" id="new-mess" cols="30" rows="10">
+    </textarea> -->
+    
+    <input type="submit" name="submit" value ="SAVE DATA">
+    
+    
+    </form>
